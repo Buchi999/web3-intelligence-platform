@@ -1,0 +1,25 @@
+# Env / secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Reports generated at runtime
+/backend/generated_reports/
